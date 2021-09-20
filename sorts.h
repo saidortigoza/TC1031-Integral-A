@@ -1,11 +1,13 @@
 //
-// sorts.h
-//
-// Created on: 19/09/2021
+// File: sorts.h
+// Date: 19/09/2021
 // Author: Said Ortigoza
+// Description: Este archivo contiene las funciones
+//              de los algoritmos de búsqueda y ordenamiento
 //
-// Description: Funciones de los algoritmos de búsqueda
-//              y ordenamiento
+// Copyright (c) 2021 by Tecnologico de Monterrey.
+// All Rights Reserved. May be reproduced for any non-commercial
+// purpose.
 //
 
 #ifndef SORTS_H
@@ -30,6 +32,7 @@ void bubbleSort(vector<T> &v) {
 			}
 		}
 	}
+    return v;
 }
 
 template<class T>
