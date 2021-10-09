@@ -27,3 +27,7 @@ La función *update* actualiza el valor de un elemento dentro de la lista a part
 ***deleteAt***
 
 La función *deleteAt* elimina un elemento dentro de la lista según su posición y reduce el tamaño de la lista. El algoritmo funciona mediante un ciclo while que recorre *n* pasos hasta llegar al elemento deseado, por lo que su complejidad temporal es *(O(n))* para el peor de los casos.
+
+***toString***
+
+El algoritmo recorre n pasos, debido a que utiliza un ciclo while que recorre la lista entera, almacenando en un string la matricula de cada estudiante en cada ciclo, por lo tanto, su complejidad es lineal *O(n)*.
