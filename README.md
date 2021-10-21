@@ -2,6 +2,12 @@
 
 El proyecto maneja la información de los estudiantes de una universidad y mediante estructuras de datos utiliza la información contenida en *alumnos.txt* para implementar algoritmos que ayuden a la universidad a organizar y encontrar la información de una manera más eficiente.
 
+## SICT0301B: Evalúa los componentes
+
+### - Presenta Casos de Prueba correctos y completos para todas las funciones y procedimientos del programa
+
+### - Hace un análisis de complejidad correcto y completo para todo el programa y sus compenetes
+
 ## SICT0302B: Toma decisiones
 
 ### - Selecciona un algoritmo de ordenamiento adecuado al problema
@@ -31,3 +37,13 @@ La función *deleteAt* elimina un elemento dentro de la lista según su posició
 ***toString***
 
 El algoritmo recorre n pasos, debido a que utiliza un ciclo while que recorre la lista entera, almacenando en un string la matricula de cada estudiante en cada ciclo, por lo tanto, su complejidad es lineal *O(n)*.
+
+### - Usa un árbol adecuado para resolver un problema
+
+## SICT0303B: Implementa acciones científicas
+
+### - Implementa mecanismos para consultar información de las estructuras correctos y útiles dentro de un programa
+
+### - Implementa mecanismos de lectura de archivos correctos y útiles dentro de un programa
+
+### - Implementa mecanismos de escritura de archivos correctos y útiles dentro de un programa
