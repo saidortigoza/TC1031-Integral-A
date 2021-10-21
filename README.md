@@ -1,6 +1,6 @@
 # Student Management System
 
-El proyecto maneja la información de los estudiantes de una universidad y mediante estructuras de datos utiliza la información contenida en *alumnos.txt* para implementar algoritmos que ayuden a la universidad a organizar y encontrar la información de una manera más eficiente.
+El proyecto maneja la información de los estudiantes de una universidad y mediante estructuras de datos utiliza la información contenida en *alumnos.txt* para implementar algoritmos que ayuden a la universidad a administrar, organizar y encontrar la información de una manera más eficiente.
 
 ## SICT0301B: Evalúa los componentes
 
