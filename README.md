@@ -6,7 +6,11 @@ El proyecto maneja la información de los estudiantes de una universidad y media
 
 ### - Presenta Casos de Prueba correctos y completos para todas las funciones y procedimientos del programa
 
+Los casos de prueba se corren en el main por medio de las funciones del archivo *casosPrueba.h*.
+
 ### - Hace un análisis de complejidad correcto y completo para todo el programa y sus compenetes
+
+El análisis de complejidad de todas las funciones de los archivos del programa se encuentran aquí mismo en el archivo *README.md*.
 
 ## SICT0302B: Toma decisiones
 
@@ -43,6 +47,8 @@ El algoritmo recorre n pasos, debido a que utiliza un ciclo while que recorre la
 ## SICT0303B: Implementa acciones científicas
 
 ### - Implementa mecanismos para consultar información de las estructuras correctos y útiles dentro de un programa
+
+Se implementaron diversas funciones de consulta de información, como la búsqueda secuencial, codificada en el archivo *sorts.h*
 
 ### - Implementa mecanismos de lectura de archivos correctos y útiles dentro de un programa
 
