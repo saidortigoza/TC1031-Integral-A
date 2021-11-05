@@ -44,14 +44,30 @@ El algoritmo recorre n pasos, debido a que utiliza un ciclo while que recorre la
 
 ### - Usa un árbol adecuado para resolver un problema
 
+***push***
+
+La funcion *push* inserta un elemento en el siguiente valor disponible dentro de la fila, y reordena la estructura utilizando la funcion *heapify*. Utilizando un ciclo while cada valor que se quiera insertar sera por niveles en el arbol, comparando que el hijo siempre sean mas chico que su padre, por lo que su complejidad temporal es *O(log n)* o logaritmica para el peor de los casos.
+
+***pop***
+
+La funcion *pop* elimina el dato que tiene mayor prioridad en la fila (la raiz del arbol) y reordena el arbol usando la funcion *heapify*, por lo que su complejidad temporal es O(log n) o logaritmica para el peor de los casos dado que usa *heapify*, pero si solo se removiera el elemento sin reorganizar la estructura entonces su complejidad seria *O(1)* o constante para el peor de los casos.
+
+***toString***
+La funcion *toString* recorre n pasos, debido a que utiliza un ciclo while que recorre la lista entera, almacenando en un string la matricula de cada estudiante en cada ciclo, por lo tanto, su complejidad es lineal *O(n)*.
+
+***busqSecuencial***
+La funcion booleana *busqSecuencial* busca una matricula ingresada dentro del arbol recorriendo n pasos, ya que usa un ciclo for que va de i = 0 hasta count (numero de elementos dentro del arbol), devolviendo True si se ha encontrado o False si no se ha encontrado, por lo que su complejidad temporal es O(n) o lineal para el peor de los casos.
+
 ## SICT0303B: Implementa acciones científicas
 
 ### - Implementa mecanismos para consultar información de las estructuras correctos y útiles dentro de un programa
 
-Se implementaron diversas funciones de consulta de información, como la búsqueda binaria, codificada en el archivo *sorts.h*, la función *search* contenida en las líneas 154-168 del archivo *list.h* que se utiliza para buscar por matrícula, y la búsqueda secuencial, dentro del archivo *heap.h*.
+Se implementaron diversas funciones de consulta de información, como la búsqueda binaria, codificada en el archivo *sorts.h*, la función *search* contenida en las líneas 154-168 del archivo *list.h* que se utiliza para buscar por matrícula, y la búsqueda secuencial, dentro del archivo *heap.h*, misma que se utiliza para correr algunos casos de prueba.
 
 ### - Implementa mecanismos de lectura de archivos correctos y útiles dentro de un programa
 
-Se incluye un archivo inicial *alumnos.txt* para extraer la información de una manera más optimizada, y se crean archivos de texto adicionales
+Se incluye un archivo inicial *alumnos.txt* para extraer la información de una manera más optimizada, y se crean archivos de texto adicionales (*alumnosSort.txt*, *alumnosList.txt* y *alumnosHeap.txt*).
 
 ### - Implementa mecanismos de escritura de archivos correctos y útiles dentro de un programa
+
+Se implementan diversas funciones de escritura, entre ellas *insertion* en las líneas 132-151 del archivo *list.h* y *push* en las líneas 89-98 de archivo *heap.h*
