@@ -12,6 +12,12 @@ Los casos de prueba se corren en el main por medio de las funciones del archivo 
 
 El análisis de complejidad de todas las funciones de los archivos del programa se encuentran aquí mismo en el archivo *README.md*.
 
+***main.cpp***
+
+El main utiliza el archivo (alumnos.txt) ya que aqui se encuentran los datos de los alumnos, haciendo uso de un while dentro de otro while se ingresa la información del archivo en un vector, en una lista ligada y en un arbol heap, ya que solo se recorre n pasos hasta haber leido la ultima linea del archivo de texto su complejidad temporal para el peor de los casos es *O(n)* o lineal. Posteriormente se realiza una busqueda binaria de alumno por matricula, el algoritmo de búsqueda binaria funciona dividiendo la búsqueda en mitades utilizando la técnica de recursión, por lo que su complejidad es *O(log n)* para el peor de los casos. Una vez conseguido el arbol con todos los valores dados por el txt, se imprime en consola el string generado por la la funcion *toString* para ver lo contenido en el arbol. Este string es almcenado en el archivo txt *alumnosHeap.txt*, como solo toma un paso guardar el string en el archivo de texto su compejidad temporal para el peor de los casos es O(1) o constante. Lo siguiente es que el main pregunta al usuario que ingrese una matricula y la busca utilizando de la funcion *busqSecuencial* del Arbol Heap, debido a que solo se revisa por medio de ifs el resultado de la funcion booleana la complejidad temporal de este proceso es O(1) o constante para el peor de los casos.
+
+Finalmente se corren algunos casos de prueba, los cuales utilizan funciones cuyas complejidades temporales ya se mencionaron anteriormente, como la función de búsqueda binaria y la función de búsqueda dentro del Arbol Heap.
+
 ## SICT0302B: Toma decisiones
 
 ### - Selecciona un algoritmo de ordenamiento adecuado al problema
