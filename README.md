@@ -48,8 +48,10 @@ El algoritmo recorre n pasos, debido a que utiliza un ciclo while que recorre la
 
 ### - Implementa mecanismos para consultar información de las estructuras correctos y útiles dentro de un programa
 
-Se implementaron diversas funciones de consulta de información, como la búsqueda secuencial, codificada en el archivo *sorts.h*
+Se implementaron diversas funciones de consulta de información, como la búsqueda binaria, codificada en el archivo *sorts.h*, la función *search* contenida en las líneas 154-168 del archivo *list.h* que se utiliza para buscar por matrícula, y la búsqueda secuencial, dentro del archivo *heap.h*.
 
 ### - Implementa mecanismos de lectura de archivos correctos y útiles dentro de un programa
+
+Se incluye un archivo inicial *alumnos.txt* para extraer la información de una manera más optimizada, y se crean archivos de texto adicionales
 
 ### - Implementa mecanismos de escritura de archivos correctos y útiles dentro de un programa
