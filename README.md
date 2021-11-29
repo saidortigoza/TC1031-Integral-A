@@ -2,6 +2,10 @@
 
 El proyecto maneja la información de los estudiantes de una universidad y mediante estructuras de datos utiliza la información contenida en *alumnos.txt* para implementar algoritmos que ayuden a la universidad a administrar, organizar y encontrar la información de una manera más eficiente.
 
+## Correcciones 
+
+* Se corrigió error de compilación en Actividad Integradora 1 (Algoritmos de Ordenamiento). Las funciones utilizadas en Actividad Integradora 1 (*bubbleSort* y *binarySearch*) están en el archivo *sorts.h* y su uso dentro del *main.cpp* se encuentra en las líneas 50-85.
+
 ## SICT0301B: Evalúa los componentes
 
 ### - Presenta Casos de Prueba correctos y completos para todas las funciones y procedimientos del programa
